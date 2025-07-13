@@ -30,14 +30,6 @@ Bem-vindo ao repositório oficial do projeto de site desenvolvido para o **Super
 
 ---
 
-## 📷 Preview
-
-<div align="center">
-  <img src="imagens/preview-site.png" width="90%" alt="Imagem prévia do site São Luiz Bom Dia">
-</div>
-
----
-
 ## 🗂 Estrutura do Projeto
 
 site-bomdia-cm/ ├── index.html ├── estilos.css ├── imagens/ │ ├── logo.png │ ├── favicon.png │ ├── arroz.jpg │ ├── cafe.png │ ├── leite-integral.png │ ├── frango-resfriado.png │ ├── oleo-soja.png │ ├── acucar-refinado.png │ └── [formas-pagamento].png
