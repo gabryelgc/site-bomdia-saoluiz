@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Ícones/Favicon -->
+<link rel="icon" href="imagens/unnamed.png" type="image/x-icon" />
+<link rel="icon" href="imagens/favicon.png" sizes="32x32" type="image/png" />
+
+  <title>São Luiz Bom Dia – Campo Mourão</title>
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  >
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    rel="stylesheet"
+  >
+
+  <link
+  href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+  rel="stylesheet"
+    />
+    <link
+  href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+  rel="stylesheet"
+    />
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="cabecalho text-center py-4 bg-danger text-white">
+    <img src="imagens/logo.png.jpg" alt="Logo São Luiz Bom Dia" class="logo mb-2">
+    <h1>São Luiz Bom Dia</h1>
+    <p>Ofertas imbatíveis toda semana!</p>
+  </header>
+
+  <!-- Navegação -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html" title="Ínicio"><i class="bi bi-house-fill"></i> Início</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#menuNav"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menuNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#ofertas">Ofertas</a></li>
+          <li class="nav-item"><a class="nav-link" href="sobre.html">Sobre</a></li>
+          <li class="nav-item"><a class="nav-link" href="#clube">Clube</a></li>
+          <li class="nav-item"><a class="nav-link" href="contato.html">Fale Conosco</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Início / Banner -->
+  <section id="inicio" class="banner-inicial text-center text-white d-flex align-items-center">
+    <div class="container">
+      <h2>Bem-vindo ao Supermercado São Luiz Bom Dia</h2>
+      <p class="lead">Qualidade e preço baixo para você e sua família.</p>
+      <a href="#ofertas" class="btn btn-light btn-lg">Ver Ofertas</a>
+    </div>
+  </section>
+
+  <!-- Ofertas da Semana -->
+  <section id="ofertas" class="secao container py-5">
+    <h3 class="mb-4"><i class="bi bi-tags-fill"></i> Ofertas da Semana</h3>
+    <div class="row g-4">
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="card oferta">
+          <img src="imagens/arroz.jpg" class="card-img-top" alt="Arroz 5kg">
+          <div class="card-body text-center">
+            <h5 class="card-title">Arroz São Luiz 5 kg</h5>
+            <p class="preco">R$ 19,90</p>
+            <button class="btn btn-danger"><i class="bi bi-cart-plus-fill"></i> Comprar</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="card oferta">
+          <img src="imagens/cafe.png" class="card-img-top" alt="Café 500g">
+          <div class="card-body text-center">
+            <h5 class="card-title">Café 3 Corações 500 g</h5>
+            <p class="preco">R$ 8,49</p>
+            <button class="btn btn-danger"><i class="bi bi-cart-plus-fill"></i> Comprar</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="card oferta">
+          <img src="imagens/frango resfriado.png" class="card-img-top" alt="Frango kg">
+          <div class="card-body text-center">
+            <h5 class="card-title">Frango Resfriado (kg)</h5>
+            <p class="preco">R$ 7,99</p>
+            <button class="btn btn-danger"><i class="bi bi-cart-plus-fill"></i> Comprar</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="card oferta">
+          <img src="imagens/leite integral.png" class="card-img-top" alt="Leite Integral 1L">
+          <div class="card-body text-center">
+            <h5 class="card-title">Leite Integral 1 L</h5>
+            <p class="preco">R$ 4,29</p>
+            <button class="btn btn-danger"><i class="bi bi-cart-plus-fill"></i> Comprar</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="card oferta">
+          <img src="imagens/oleo soja.png" class="card-img-top" alt="Óleo de Soja 900ml">
+          <div class="card-body text-center">
+            <h5 class="card-title">Óleo de Soja 900 mL</h5>
+            <p class="preco">R$ 6,49</p>
+            <button class="btn btn-danger"><i class="bi bi-cart-plus-fill"></i> Comprar</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="card oferta">
+          <img src="imagens/acucar refinado.png" class="card-img-top" alt="Açúcar Refinado 1kg">
+          <div class="card-body text-center">
+            <h5 class="card-title">Açúcar Refinado 1 kg</h5>
+            <p class="preco">R$ 3,29</p>
+            <button class="btn btn-danger"><i class="bi bi-cart-plus-fill"></i> Comprar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Clube de Vantagens -->
+  <section id="clube" class="secao container py-5">
+    <h3><i class="bi bi-gift-fill"></i> Clube São Luiz</h3>
+    <p>Cadastre-se grátis e receba ofertas exclusivas direto no seu celular.</p>
+    <a href="https://clubesaoluizbomdia.querovantagens.com/#/home" class="btn btn-danger">
+      <i class="bi bi-card-text"></i> Quero Participar
+    </a>
+  </section>
+    
+  
+  <!-- Sobre -->
+    <section id="sobre" class="secao bg-light py-5">
+    <div class="container">
+      <h3><i class="bi bi-info-circle-fill"></i> Contato</h3>
+      <p>Fundado em Campo Mourão, o São Luiz Bom Dia é referência em qualidade, variedade e preço baixo.  
+      Parte da rede UNISUPER, contamos com centro de distribuição próprio e 40 lojas no Paraná.</p>
+      <ul class="contato-rapido list-unstyled">
+        <li><i class="bi bi-geo-alt-fill"></i> Rua São Paulo, 1777 – Campo Mourão – PR | CEP: 87301-020</li>
+        <li><i class="bi bi-telephone-fill"></i> (44) 3525-6100</li>
+        <li><i class="bi bi-envelope-fill"></i> contato@saoluizbomdia.com.br</li>
+        <li><i class="bi bi-globe"></i> <a href="https://saoluizbomdia.com.br" target="_blank">saoluizbomdia.com.br</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Rodapé -->
+  <footer class="rodape bg-danger text-white pt-5 pb-3">
+    <div class="container">
+      <div class="row">
+        
+        <!-- ATENDIMENTO -->
+        <div class="col-6 col-md-3 mb-4">
+          <h5 class="text-uppercase">Atendimento</h5>
+          <ul class="list-unstyled">
+            <li><i class="bi bi-telephone-fill me-2"></i>(44) 3525-6100</li>
+            <li><i class="bi bi-whatsapp me-2"></i>(44) 99969-0011</li>
+          </ul>
+        </div>
+        
+        <!-- INSTITUCIONAL -->
+        <div class="col-6 col-md-3 mb-4">
+          <h5 class="text-uppercase">Institucional</h5>
+          <ul class="list-unstyled">
+            <!-- Em “Institucional” substitua -->
+            <li>
+            <i class="bi bi-geo-alt-fill me-2"></i>
+            <a href="#"
+                data-bs-toggle="modal"
+                data-bs-target="#modalOndeEstamos"
+                class="text-white text-decoration-none">
+                Onde estamos
+            </a>
+            </li>
+
+            <li>
+            <i class="bi bi-clock-fill me-2"></i>
+            <a href="#"
+                data-bs-toggle="modal"
+                data-bs-target="#modalHorariosAtendimento"
+                class="text-white text-decoration-none">
+                Horários de atendimento
+            </a>
+            </li>
+
+          </ul>
+        </div>
+        
+        <!-- HORÁRIOS E ENTREGA -->
+        <div class="col-6 col-md-3 mb-4">
+          <h5 class="text-uppercase">Horários e Entrega</h5>
+          <ul class="list-unstyled">
+            <li>
+            <i class="bi bi-credit-card-fill me-2"></i>
+            <a href="#"
+                data-bs-toggle="modal"
+                data-bs-target="#modalPagamentos"
+                class="text-white text-decoration-none">
+                Formas de Pagamento
+            </a>
+            </li>
+
+            <li>
+              <i class="bi bi-clock-history me-2"></i>
+              <a href="#"
+                 class="text-white text-decoration-none"
+                 data-bs-toggle="modal"
+                 data-bs-target="#modalEntrega">
+                Horários de Entrega
+              </a>
+            </li>
+                <li>
+                <i class="bi bi-cash-stack me-2"></i>
+                <a href="#"
+                    data-bs-toggle="modal"
+                    data-bs-target="#modalTaxaEntrega"
+                    class="text-white text-decoration-none">
+                    Taxa de entrega
+                </a>
+                </li>
+
+                <li>
+                <i class="bi bi-geo-alt-fill me-2"></i>
+                <a href="#"
+                    data-bs-toggle="modal"
+                    data-bs-target="#modalCidadesAtendidas"
+                    class="text-white text-decoration-none">
+                    Cidades atendidas
+                </a>
+                </li>
+
+          </ul>
+        </div>
+        
+        <!-- ACESSO RÁPIDO -->
+        <div class="col-6 col-md-3 mb-4">
+          <h5 class="text-uppercase">Acesso Rápido</h5>
+          <ul class="list-unstyled">
+            <li>
+              <i class="bi bi-file-earmark-text me-2"></i>
+              <a href="https://lojaqui.com.br/Home/Termos" class="text-white text-decoration-none" target="_blank">
+                Termos de Uso
+              </a>
+            </li>
+            <li>
+              <i class="bi bi-shield-lock me-2"></i>
+              <a href="https://lojaqui.com.br/Home/Privacidade" class="text-white text-decoration-none" target="_blank">
+                Política de Privacidade
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+<!-- Modal: Formas de Pagamento -->
+<div class="modal fade" id="modalPagamentos" tabindex="-1" aria-labelledby="tituloModalPagamentos" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-xl">
+    <div class="modal-content">
+
+      <div class="modal-header bg-danger text-white">
+        <h5 class="modal-title" id="tituloModalPagamentos">
+          <i class="bi bi-credit-card-2-back-fill me-2"></i>
+          Formas de Pagamento
+        </h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Fechar"></button>
+      </div>
+
+      <div class="modal-body">
+        <div class="row g-3">
+
+          <div class="col-6 col-sm-4 col-md-3 d-flex align-items-center">
+            <img src="imagens/coopercard.ico"
+                 alt="Coopercard Vale Alimentação"
+                 class="img-pagamento me-2">
+            <span>Coopercard Vale Alimentação</span>
+          </div>
+
+          <div class="col-6 col-sm-4 col-md-3 d-flex align-items-center">
+            <img src="imagens/alelo.ico"
+                 alt="Alelo"
+                 class="img-pagamento me-2">
+            <span>Alelo</span>
+          </div>
+
+          <div class="col-6 col-sm-4 col-md-3 d-flex align-items-center">
+            <img src="imagens/dinheiro.ico"
+                 alt="Dinheiro"
+                 class="img-pagamento me-2">
+            <span>Dinheiro</span>
+          </div>
+
+          <div class="col-6 col-sm-4 col-md-3 d-flex align-items-center">
+            <img src="imagens/elo credito.ico"
+                 alt="Elo Crédito"
+                 class="img-pagamento me-2">
+            <span>Elo Crédito</span>
+          </div>
+
+          <div class="col-6 col-sm-4 col-md-3 d-flex align-items-center">
+            <img src="imagens/elo debito.ico"
+                 alt="Elo Débito"
+                 class="img-pagamento me-2">
+            <span>Elo Débito</span>
+          </div>
+
+          <div class="col-6 col-sm-4 col-md-3 d-flex align-items-center">
+            <img src="imagens/hipercard.ico"
+                 alt="Hipercard Crédito"
+                 class="img-pagamento me-2">
+            <span>Hipercard Crédito</span>
+          </div>
+
+          <div class="col-6 col-sm-4 col-md-3 d-flex align-items-center">
+            <img src="imagens/hipercard.ico"
+                 alt="Hipercard Débito"
+                 class="img-pagamento me-2">
+            <span>Hipercard Débito</span>
+          </div>
+
+          <div class="col-6 col-sm-4 col-md-3 d-flex align-items-center">
+            <img src="imagens/maestro.ico"
+                 alt="Maestro"
+                 class="img-pagamento me-2">
+            <span>Maestro</span>
+          </div>
+
+          <div class="col-6 col-sm-4 col-md-3 d-flex align-items-center">
+            <img src="imagens/mastercard.ico"
+                 alt="Mastercard Crédito"
+                 class="img-pagamento me-2">
+            <span>Mastercard Crédito</span>
+          </div>
+
+          <div class="col-6 col-sm-4 col-md-3 d-flex align-items-center">
+            <img src="imagens/sodexo.ico"
+                 alt="Sodexo Alimentação"
+                 class="img-pagamento me-2">
+            <span>Sodexo Alimentação</span>
+          </div>
+
+          <div class="col-6 col-sm-4 col-md-3 d-flex align-items-center">
+            <img src="imagens/visa.ico"
+                 alt="Visa Crédito"
+                 class="img-pagamento me-2">
+            <span>Visa Crédito</span>
+          </div>
+
+          <div class="col-6 col-sm-4 col-md-3 d-flex align-items-center">
+            <img src="imagens/visa-electron.ico"
+                 alt="Visa Electron"
+                 class="img-pagamento me-2">
+            <span>Visa Electron</span>
+          </div>
+
+          <div class="col-6 col-sm-4 col-md-3 d-flex align-items-center">
+            <img src="imagens/vr.ico"
+                 alt="VR Alimentação"
+                 class="img-pagamento me-2">
+            <span>VR Alimentação</span>
+          </div>
+
+          <div class="col-6 col-sm-4 col-md-3 d-flex align-items-center">
+            <img src="imagens/ticket.ico"
+                 alt="Ticket Alimentação"
+                 class="img-pagamento me-2">
+            <span>Ticket Alimentação</span>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+          Fechar
+        </button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+  <!-- Modal: Horários de Entrega -->
+  <div class="modal fade" id="modalEntrega" tabindex="-1" aria-labelledby="tituloEntrega" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+
+        <div class="modal-header bg-danger text-white">
+          <h5 class="modal-title" id="tituloEntrega">
+            <i class="bi bi-clock-fill me-2"></i>
+            Horários de Entrega
+          </h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Fechar"></button>
+        </div>
+
+        <div class="modal-body">
+          <ul class="list-unstyled ps-2">
+            <li><i class="bi bi-calendar-event-fill me-2"></i><strong>Domingo:</strong> Sem entrega</li>
+            <li><i class="bi bi-calendar2-week-fill me-2"></i><strong>Segunda:</strong> 11h–13h / 16h–18h</li>
+            <li><i class="bi bi-calendar2-week-fill me-2"></i><strong>Terça:</strong> 11h–13h / 16h–18h</li>
+            <li><i class="bi bi-calendar2-week-fill me-2"></i><strong>Quarta:</strong> 11h–13h / 16h–18h</li>
+            <li><i class="bi bi-calendar-event-fill me-2"></i><strong>Quinta:</strong> Sem entrega</li>
+            <li><i class="bi bi-calendar2-week-fill me-2"></i><strong>Sexta:</strong> 11h–13h / 16h–18h</li>
+            <li><i class="bi bi-calendar2-week-fill me-2"></i><strong>Sábado:</strong> 10h–13h / 16h–18h</li>
+          </ul>
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal: Taxa de Entrega -->
+<div class="modal fade" id="modalTaxaEntrega" tabindex="-1" aria-labelledby="tituloModalTaxa" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+
+      <div class="modal-header bg-danger text-white">
+        <h5 class="modal-title" id="tituloModalTaxa">
+          <i class="bi bi-cash-stack me-2"></i>
+          Taxa de Entrega
+        </h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Fechar"></button>
+      </div>
+
+      <div class="modal-body">
+        <ul class="list-unstyled ps-2">
+          <li><i class="bi bi-geo-fill me-2"></i><strong>Centro:</strong> R$ 10,00</li>
+          <li><i class="bi bi-house-fill me-2"></i><strong>Bairros:</strong> R$ 15,00</li>
+          <li><i class="bi bi-truck me-2"></i><strong>Lugares distantes:</strong> R$ 20,00</li>
+        </ul>
+      </div>
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+          Fechar
+        </button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+    <!-- Modal: Cidades Atendidas -->
+<div class="modal fade" id="modalCidadesAtendidas" tabindex="-1" aria-labelledby="tituloModalCidades" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+
+      <div class="modal-header bg-danger text-white">
+        <h5 class="modal-title" id="tituloModalCidades">
+          <i class="bi bi-globe me-2"></i>
+          Cidades atendidas
+        </h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Fechar"></button>
+      </div>
+
+      <div class="modal-body">
+        <ul class="list-unstyled ps-2">
+          <li><i class="bi bi-geo-fill me-2"></i>Campo Mourão</li>
+        </ul>
+      </div>
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+    <!-- Modal: Onde Estamos -->
+<div class="modal fade" id="modalOndeEstamos" tabindex="-1" aria-labelledby="tituloModalOnde" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+
+      <div class="modal-header bg-danger text-white">
+        <h5 class="modal-title" id="tituloModalOnde">
+          <i class="bi bi-geo-alt-fill me-2"></i>
+          Onde Estamos
+        </h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Fechar"></button>
+      </div>
+
+      <div class="modal-body">
+        <p>
+          Rua São Paulo, 1777 – Centro<br>
+          Campo Mourão – PR | CEP: 87301-020
+        </p>
+        <p>
+          <a href="https://www.google.com/maps/search/?api=1&query=Rua+São+Paulo,+1777,+Campo+Mourão+PR" 
+             target="_blank"
+             class="btn btn-danger btn-sm">
+            <i class="bi bi-box-arrow-up-right me-1"></i>
+            Abrir no Google Maps
+          </a>
+        </p>
+      </div>
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+          Fechar
+        </button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+  <!-- Bootstrap JS (no final do documento) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+  <!-- Modal de Formas de Pagamento -->
+  <div class="modal fade" id="modalFormasPagamento" tabindex="-1" aria-labelledby="tituloModalPagamentos" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header bg-danger text-white">
+          <h5 class="modal-title" id="tituloModalPagamentos">
+            <i class="bi bi-credit-card-2-back-fill me-2"></i>
+            Formas de Pagamento
+          </h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Fechar"></button>
+        </div>
+        <div class="modal-body">
+          <ul class="list-unstyled ps-2">
+            <li><i class="bi bi-credit-card-fill me-2"></i>Vale Alimentação Coopercard</li>
+            <li><i class="bi bi-credit-card-fill me-2"></i>Alelo</li>
+            <li><i class="bi bi-cash-stack me-2"></i>Dinheiro</li>
+            <li><i class="bi bi-credit-card-fill me-2"></i>Elo Crédito</li>
+            <li><i class="bi bi-credit-card-fill me-2"></i>Elo Débito</li>
+            <li><i class="bi bi-credit-card-fill me-2"></i>Hipercard Crédito</li>
+            <li><i class="bi bi-credit-card-fill me-2"></i>Hipercard Débito</li>
+            <li><i class="bi bi-credit-card-fill me-2"></i>Maestro</li>
+            <li><i class="bi bi-credit-card-fill me-2"></i>Mastercard Crédito</li>
+            <li><i class="bi bi-credit-card-fill me-2"></i>Sodexo Alimentação</li>
+            <li><i class="bi bi-credit-card-fill me-2"></i>Visa Crédito</li>
+            <li><i class="bi bi-credit-card-fill me-2"></i>Visa Electron</li>
+            <li><i class="bi bi-credit-card-fill me-2"></i>VR Alimentação</li>
+            <li><i class="bi bi-credit-card-fill me-2"></i>Ticket Alimentação</li>
+          </ul>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+            Fechar
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <!-- Modal: Horários de Atendimento -->
+<div class="modal fade" id="modalHorariosAtendimento" tabindex="-1" aria-labelledby="tituloModalAtendimento" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+
+      <div class="modal-header bg-danger text-white">
+        <h5 class="modal-title" id="tituloModalAtendimento">
+          <i class="bi bi-clock-fill me-2"></i>
+          Horários de atendimento
+        </h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Fechar"></button>
+      </div>
+
+      <div class="modal-body">
+        <ul class="list-unstyled ps-2">
+          <li><i class="bi bi-calendar-event-fill me-2"></i><strong>Domingo:</strong> 08h00–13h00</li>
+          <li><i class="bi bi-calendar2-week-fill me-2"></i><strong>Segunda-feira:</strong> 08h00–21h00</li>
+          <li><i class="bi bi-calendar2-week-fill me-2"></i><strong>Terça-feira:</strong> 08h00–21h00</li>
+          <li><i class="bi bi-calendar2-week-fill me-2"></i><strong>Quarta-feira:</strong> 08h00–21h00</li>
+          <li><i class="bi bi-calendar2-week-fill me-2"></i><strong>Quinta-feira:</strong> 08h00–21h00</li>
+          <li><i class="bi bi-calendar2-week-fill me-2"></i><strong>Sexta-feira:</strong> 08h00–21h00</li>
+          <li><i class="bi bi-calendar2-week-fill me-2"></i><strong>Sábado:</strong> 08h00–21h00</li>
+        </ul>
+      </div>
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+  <!-- Scripts do Bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+  <!-- Scripts -->
+  
+  <script>
+    document.getElementById('formContato').addEventListener('submit', function(e) {
+      e.preventDefault();
+      const campos = ['nome','email','telefone','assunto','categoria','mensagem'];
+      let valido = campos.every(id => document.getElementById(id).value.trim() !== '');
+      const resp = document.getElementById('respostaForm');
+
+      if (!valido) {
+        resp.textContent = 'Por favor, preencha todos os campos.';
+        resp.style.color = 'red';
+      } else {
+        resp.textContent = 'Mensagem enviada com sucesso!';
+        resp.style.color = 'lightgreen';
+        this.reset();
+      }
+    });
+  </script>
+</body>
+</html>

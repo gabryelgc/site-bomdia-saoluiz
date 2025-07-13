@@ -1,0 +1,125 @@
+:root {
+  --vermelho-bomdia: #c20000;
+  --cinza-escuro: #333;
+  --branco: #fff;
+}
+
+.logo {
+  width: 120px;
+  height: auto; 
+  display: block; 
+  margin: 0 auto; 
+}
+
+
+body {
+  font-family: 'Arial', sans-serif;
+  background: var(--branco);
+  color: var(--cinza-escuro);
+}
+
+.barra-superior {
+  font-size: 0.9rem;
+}
+
+.logo {
+  max-width: 140px;
+}
+
+.cabecalho h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.3rem;
+}
+
+.navbar-brand, .nav-link {
+  font-weight: 500;
+}
+
+.banner-inicial {
+  background: url('imagens/banner.jpg') center/cover no-repeat;
+  height: 60vh;
+}
+
+.banner-inicial h2 {
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+}
+
+.secao h3 {
+  color: var(--vermelho-bomdia);
+  margin-bottom: 1.5rem;
+}
+
+.oferta .card {
+  border: none;
+  transition: transform .2s;
+}
+
+.oferta .card:hover {
+  transform: scale(1.05);
+}
+
+.preco {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: var(--vermelho-bomdia);
+}
+
+.contato-rapido li {
+  margin-bottom: 0.5rem;
+}
+
+.rodape p {
+  margin: 0;
+  font-size: 0.85rem;
+}
+
+.clube {
+    color: #1c203e;
+}
+
+.rodape {
+  background-color: #c20000;
+}
+
+.rodape h5 {
+  font-weight: bold;
+  margin-bottom: 0.75rem;
+}
+
+.rodape ul li {
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.modal-header {
+  border-bottom: none;
+}
+
+.modal-body ul li {
+  margin-bottom: 0.5rem;
+}
+
+.modal-body ul li i {
+  color: #c20000;
+}
+
+/* Garante grid organizado dentro do modal */
+.modal-body .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.modal-body .col-6,
+.modal-body .col-sm-4,
+.modal-body .col-md-3 {
+  display: flex;
+  align-items: center;
+}
+
+.img-pagamento {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+}
+
